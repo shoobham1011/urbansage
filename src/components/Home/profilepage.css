@@ -1,0 +1,71 @@
+/* profilepage.css */
+
+.profile-page-container {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.upload-input {
+  margin-top: 10px;
+}
+
+.username {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.email,
+.location,
+.interests {
+  color: #666;
+  margin: 0;
+}
+
+.edit-button {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
